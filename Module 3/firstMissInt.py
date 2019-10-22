@@ -20,5 +20,5 @@ def first_missing_positive_integer(integers):
     
 #Test Cases
 print(first_missing_positive_integer([1,2,0])) #returns 3
-print(first_missing_positive_integer([3,4,-1,1])) #returns 2
+print(first_missing_positive_integer([3,4,-1, -2, 1])) #returns 2
 print(first_missing_positive_integer([-8, -7, -6])) #returns 1
