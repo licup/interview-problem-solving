@@ -13,3 +13,8 @@ def countPrimes(n):
     if isPrime(i):
       prime+=1
   return prime
+
+# Test Cases
+
+print(countPrimes(10)) # should return 4
+print(countPrimes(40)) # should return 8
