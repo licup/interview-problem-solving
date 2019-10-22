@@ -1,4 +1,4 @@
-# Determine if the input number is prime 
+# Determine if the input number is a prime number
 def isPrime(n):
   for current_number in range(2,n):
     # if the input number is evenly divisible by the current number?
